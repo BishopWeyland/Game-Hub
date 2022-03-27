@@ -388,6 +388,10 @@ footer {
     font-size: 18;
   }
 
+  .top_nav li {
+    margin-right: 24px;
+  }
+
   .bottom_nav ul {
     display: flex;
     flex-direction: column;
