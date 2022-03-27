@@ -373,7 +373,8 @@ footer {
   }
 
   .bottom_nav {
-    display: block;
+    display: grid;
+    place-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -392,6 +393,14 @@ footer {
     flex-direction: column;
     justify-content: center;
     height: 100vh;
+  }
+
+  .bottom_nav li {
+    margin-bottom: 12px;
+  }
+
+  .bottom_nav a {
+    font-size: 32px;
   }
 
   .hamburger-icon {
