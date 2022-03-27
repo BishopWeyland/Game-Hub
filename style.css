@@ -1,0 +1,430 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0f1e21;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.layout-margin {
+  margin: 0 10%;
+  position: relative;
+}
+
+i {
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* Hero */
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/pexels-lucie-liz-3165335.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: grid;
+  place-items: center;
+}
+
+.hero-content {
+  width: 800px;
+}
+
+.hero-content h1 {
+  margin-bottom: 21px;
+}
+
+.hero-content h2 {
+  color: white;
+  font-family: "helvetica neue";
+  font-size: 30px;
+}
+
+.hero-content p {
+  margin: 21px 0;
+}
+
+/* Header */
+
+#checkbox-input {
+  display: none;
+  position: fixed;
+  top: 5%;
+  left: 15%;
+  z-index: 999;
+}
+
+.top_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.top_nav ul {
+  display: flex;
+}
+
+.top_nav ul :first-child {
+  margin-right: 12px;
+}
+
+.top_nav .search-form {
+  display: flex;
+  align-items: center;
+  width: 535px;
+}
+
+.top_nav .search {
+  height: 35px;
+  appearance: none;
+  border: none;
+  width: 100%;
+  padding: 0 12px;
+  border-radius: 3px 0 0 3px;
+}
+
+.top_nav button {
+  appearance: none;
+  border: none;
+  background-color: #65d3eb;
+  width: 40px;
+  height: 35px;
+  border-radius: 0 3px 3px 0;
+}
+
+.bottom_nav {
+  background-color: #1c3a40;
+  border-bottom: solid 1px #65d3eb;
+  padding: 18px 0;
+}
+
+.bottom_nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom_nav li {
+  margin-right: 60px;
+}
+
+.bottom_nav li:last-of-type {
+  margin-right: 0;
+}
+
+.logo {
+  width: 200px;
+  object-fit: cover;
+  margin: 12px;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
+h1,
+h2,
+h2 a {
+  color: #65d3eb;
+  text-decoration: none;
+  font-family: "Avenir Black";
+  font-size: 40px;
+}
+
+a,
+p {
+  color: white;
+  text-decoration: none;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+.top_nav ul a i {
+  color: #65d3eb;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  color: black;
+  background-color: #65d3eb;
+  text-decoration: none;
+  font-family: "avenir black";
+  padding: 6px 20px;
+  border-radius: 44px;
+  box-shadow: inset 1px 1px 1px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #348b9e;
+  text-decoration: none;
+}
+
+.products-container {
+  background-color: #1c3a40;
+  padding: 60px;
+  margin: 100px 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 60px;
+  margin-top: 30px;
+}
+
+.product-card {
+  display: grid;
+  gap: 16px;
+}
+
+.inner-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.inner-grid i {
+  font-size: 40px;
+  color: #348b9e;
+}
+
+.inner-grid .liked {
+  color: #65d3eb;
+}
+
+.advertising-section {
+  height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.twocol h2 {
+  margin-bottom: 21px;
+  margin: 21px;
+}
+
+.twocol p {
+  margin: 21px;
+}
+
+.twocol .btn {
+  margin: 21px;
+}
+
+.twocol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+}
+
+#ad-section1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/pexels-jens-mahnke-776092.jpg");
+}
+
+#ad-section2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/pexels-jeshootscom-442576.jpg");
+}
+
+footer li,
+footer p {
+  text-align: center;
+}
+
+footer li {
+  padding: 15px;
+}
+
+footer {
+  border-top: solid 1px #65d3eb;
+}
+.social-media-icons i {
+  color: #65d3eb;
+  font-size: 50px;
+  padding: 50px 0px;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-icons li {
+  margin-right: 20px;
+}
+
+.scroll-btn {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+}
+
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .btnaddcart {
+    width: fit-content;
+  }
+
+  .inner-grid i {
+    font-size: 30px;
+  }
+
+  h1,
+  h2,
+  h2 a {
+    color: #65d3eb;
+    text-decoration: none;
+    font-family: "Avenir Black";
+    font-size: 20px;
+  }
+
+  a,
+  p {
+    color: white;
+    text-decoration: none;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 13px;
+  }
+
+  .hero {
+    height: 300px;
+    margin-top: 180px;
+  }
+
+  .hero-content {
+    width: 300px;
+  }
+
+  .hero-content h1 {
+    margin-bottom: 21px;
+  }
+
+  .hero-content h2 {
+    color: white;
+    font-family: "helvetica neue";
+    font-size: 18px;
+  }
+
+  .logo {
+    width: 125px;
+    object-fit: cover;
+    margin: 12px;
+  }
+
+  .top_nav {
+    background-color: #1c3a40;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    box-shadow: 1px 10px 22px -9px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 1px 10px 22px -9px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 1px 10px 22px -9px rgba(0, 0, 0, 0.44);
+  }
+
+  .logo {
+    grid-column: 2;
+  }
+
+  .top_nav ul {
+    grid-column: 3;
+  }
+
+  .top_nav .search-form {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    width: 100%;
+    margin-bottom: 28px;
+  }
+
+  .top_nav li span {
+    display: none;
+  }
+
+  .bottom_nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    transform: translateX(-2000px);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .top_nav i {
+    font-size: 18;
+  }
+
+  .bottom_nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .hamburger-icon {
+    display: block;
+  }
+
+  .hamburger-icon i {
+    color: #65d3eb;
+    font-size: 18px;
+    position: fixed;
+    top: 5%;
+    left: 15%;
+    z-index: 999;
+  }
+
+  #checkbox-input:checked ~ .bottom_nav {
+    transform: translateX(0);
+  }
+
+  .twocol {
+    grid-template-columns: 1fr;
+    row-gap: 64px;
+  }
+
+  .advertising-section {
+    height: 210px;
+  }
+
+  footer {
+    border-top: none;
+  }
+
+  .social-media-icons i {
+    font-size: 27px;
+  }
+}
