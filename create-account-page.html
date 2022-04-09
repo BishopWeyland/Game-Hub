@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game-Hub</title>
+    <meta
+      name="description"
+      content="Create your own Game-Hub account to get access to the used games library."
+    />
+    <meta
+      name="keywords"
+      content="Game, Consoles, Controllers, pc, headset, buy, sell"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3f8b4b390b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <section class="top_nav">
+          <a href="index.html" class="home-img"
+            ><img
+              src="images/gamehub.png"
+              alt="Game-Hub logo of a gaming controller"
+              class="logo"
+          /></a>
+          <form class="search-form">
+            <input type="search" class="search" />
+            <button type="submit">
+              <a href="search.html">
+                <i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </button>
+          </form>
+          <ul>
+            <li>
+              <a href="create-account-page.html">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <span>Sign-in</span></a
+              >
+            </li>
+            <li>
+              <a href="shopping-cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Cart</span></a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <label class="hamburger-icon" for="checkbox-input"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+        <input type="checkbox" id="checkbox-input" value="" />
+
+        <section class="bottom_nav">
+          <ul>
+            <li><a href="">Games</a></li>
+            <li><a href="">Consoles</a></li>
+            <li><a href="">Controllers</a></li>
+            <li><a href="">Headset</a></li>
+            <li><a href="">Accessories</a></li>
+            <li><a href="">PC</a></li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+
+    <div class="layout-margin">
+      <main>
+        <div class="account-grid">
+          <div class="account-gh-logo">
+            <img
+              src="images/gamehub.png"
+              alt="Game-Hub logo of a gaming controller"
+            />
+          </div>
+          <div class="account-flex">
+            <div class="account-container">
+              <h1>Create account</h1>
+              <div class="account-form">
+                <label for="first-name">First name:</label>
+                <input type="text" id="first-name" />
+                <label for="last-name">Last name:</label>
+                <input type="text" id="last-name" />
+                <label for="e-mail">E-mail:</label>
+                <input type="email" id="e-mail" />
+                <label for="password1">Password:</label>
+                <input type="password" id="password1" />
+                <label for="password2">Confirm password:</label>
+                <input type="password" id="password2" />
+              </div>
+              <a href="account.html" class="btn btncreateaccount"
+                >Create account</a
+              >
+              <p>Already have an account? <a href="">(Sign-in)</a></p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <a href="#top" class="scroll-btn btn"
+        ><i class="fa-solid fa-chevron-up"></i
+      ></a>
+    </div>
+    <footer>
+      <ul>
+        <li><a href="">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="">Policy</a></li>
+        <li><a href="">Customer service</a></li>
+      </ul>
+      <ul class="social-media-icons">
+        <li><i class="fa-brands fa-twitter-square"></i></li>
+        <li><i class="fa-brands fa-facebook-square"></i></li>
+        <li><i class="fa-brands fa-instagram-square"></i></li>
+      </ul>
+      <p>© Copyright 2022 GAMEHUB</p>
+    </footer>
+  </body>
+</html>

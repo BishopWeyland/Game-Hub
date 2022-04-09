@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game-Hub</title>
+    <meta
+      name="description"
+      content="Game-Hub checkout where you put in name and shipping info"
+    />
+    <meta
+      name="keywords"
+      content="Game, Consoles, Controllers, pc, headset, buy, sell"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3f8b4b390b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <section class="top_nav">
+          <a href="index.html" class="home-img"
+            ><img
+              src="images/gamehub.png"
+              alt="Game-Hub logo of a gaming controller"
+              class="logo"
+          /></a>
+          <form class="search-form">
+            <input type="search" class="search" />
+            <button type="submit">
+              <a href="search.html">
+                <i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </button>
+          </form>
+          <ul>
+            <li>
+              <a href="create-account-page.html">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <span>Sign-in</span></a
+              >
+            </li>
+            <li>
+              <a href="shopping-cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Cart</span></a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <label class="hamburger-icon" for="checkbox-input"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+        <input type="checkbox" id="checkbox-input" value="" />
+
+        <section class="bottom_nav">
+          <ul>
+            <li><a href="">Games</a></li>
+            <li><a href="">Consoles</a></li>
+            <li><a href="">Controllers</a></li>
+            <li><a href="">Headset</a></li>
+            <li><a href="">Accessories</a></li>
+            <li><a href="">PC</a></li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+    <div class="layout-margin">
+      <main>
+        <div class="checkout-progress1">
+          <a href="shopping-cart.html">Add to cart</a>
+          <a href="checkout1.html">Checkout</a>
+          <a href="checkout2.html">Payment</a>
+        </div>
+        <div class="checkout-progress2">
+          <a href="shopping-cart.html" class="inactive-number">1</a>
+          <a href="checkout1.html" class="active-number">2</a>
+          <a href="checkout2.html" class="inactive-number">3</a>
+        </div>
+        <div class="checkout-grid">
+          <div class="checkout-container">
+            <h1>Checkout</h1>
+            <div class="checkout-info1">
+              <label for="first-name">First name:</label>
+              <input type="text" />
+              <label for="last-name">Last name:</label>
+              <input type="text" />
+              <label for="adress">Adress:</label>
+              <input type="text" />
+              <label for="countries">Country:</label>
+              <select name="countries" id="countries">
+                <option value="england">England</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="norway">Norway</option>
+                <option value="japan">Japan</option>
+              </select>
+            </div>
+            <div class="checkout-info2">
+              <label for="apt-number">Apt Number:</label>
+              <input type="text" />
+              <label for="city">City:</label>
+              <input type="text" />
+              <label for="postal-code">Postal code:</label>
+              <input type="text" />
+            </div>
+          </div>
+          <div class="checkout-your-order">
+            <h2>Your Order</h2>
+            <div class="order-container">
+              <div class="ordered-items">
+                <img
+                  src="images/GameHub_covers10.jpeg"
+                  alt="Front cover of Forge Legend, it depicts an elven queen"
+                />
+                <div class="item-price">
+                  <p>1 x Forge Legends</p>
+                  <p>79.99$</p>
+                </div>
+                <div class="order-icons">
+                  <i class="fa-solid fa-trash-can"></i>
+                  <i class="fa-solid fa-circle-plus"></i>
+                  <i class="fa-solid fa-circle-minus"></i>
+                </div>
+              </div>
+
+              <div class="shipping-price">
+                <p>Shipping:</p>
+                <p>10.00$</p>
+              </div>
+              <div class="total-price">
+                <p>Total:</p>
+                <p>89.99$</p>
+              </div>
+
+              <div class="order-form">
+                <label for="shippig">Shipping:</label>
+                <select name="shipping" id="shipping">
+                  <option value="2-3days">Standard 2-3 days</option>
+                  <option value="overnight">Overnight shipping 1-2 days</option>
+                  <option value="1week">Budget 1 week</option>
+                </select>
+                <label for="coupon">Coupon/discount code</label>
+                <input type="text" />
+                <a href="checkout2.html" class="btn btnorder">Order & pay</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <a href="#top" class="scroll-btn btn"
+        ><i class="fa-solid fa-chevron-up"></i
+      ></a>
+    </div>
+    <footer>
+      <ul>
+        <li><a href="">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="">Policy</a></li>
+        <li><a href="">Customer service</a></li>
+      </ul>
+      <ul class="social-media-icons">
+        <li><i class="fa-brands fa-twitter-square"></i></li>
+        <li><i class="fa-brands fa-facebook-square"></i></li>
+        <li><i class="fa-brands fa-instagram-square"></i></li>
+      </ul>
+      <p>© Copyright 2022 GAMEHUB</p>
+    </footer>
+  </body>
+</html>
