@@ -1121,7 +1121,7 @@ checkout 1 page */
   }
 
   .top_nav li {
-    margin-right: 24px;
+    /* margin-right: 24px; */
   }
 
   .bottom_nav ul {
@@ -1147,7 +1147,7 @@ checkout 1 page */
     color: #65d3eb;
     font-size: 18px;
     position: fixed;
-    top: 5%;
+    top: 6%;
     left: 15%;
     z-index: 999;
   }
@@ -1206,11 +1206,15 @@ checkout 1 page */
     height: 210px;
   }
 
-  /* search phone */
+  /* search page phone */
   .search-main {
     margin-top: 180px;
     background-color: #1c3a40;
     padding: 20px 0px 30px;
+  }
+
+  .search-grid {
+    max-width: fit-content;
   }
 
   .search-info select {
@@ -1371,11 +1375,11 @@ checkout 1 page */
   /* checkout1 page phone */
 
   .checkout-progress1 {
-    margin-top: 160px;
+    margin-top: 180px;
   }
 
   .checkout-progress1 a {
-    margin: 20px 20px;
+    margin: 20px 15px;
   }
 
   .checkout-progress2::after {
@@ -1397,6 +1401,11 @@ checkout 1 page */
   .checkout-container {
     margin-top: 0px;
   }
+
+  .checkout-container label {
+    font-size: 16px;
+  }
+
   .checkout-grid {
     display: flex;
     flex-direction: column;
@@ -1416,6 +1425,10 @@ checkout 1 page */
     background-color: #0f1e21;
   }
 
+  .order-container label {
+    font-size: 16px;
+  }
+
   .shipping-price {
     border-top: 1px solid #65d3eb;
   }
@@ -1429,10 +1442,15 @@ checkout 1 page */
   .payment-container {
     background-color: #0f1e21;
     padding: 0px;
+    max-width: 100%;
   }
 
   .payment-container label {
     font-size: 16px;
+  }
+
+  .payment-container input {
+    width: fit-content;
   }
 
   .payment-container i {
@@ -1444,10 +1462,15 @@ checkout 1 page */
     grid-row: 3;
   }
 
+  .payment-card input {
+    width: 100px;
+  }
+
   /* create account page phone */
   .account-container {
     margin-top: 150px;
     background-color: #1c3a40;
+    max-width: 100%;
   }
 
   .account-form label {
@@ -1455,7 +1478,7 @@ checkout 1 page */
   }
 
   .account-form input {
-    width: 300px;
+    max-width: fit-content;
   }
 
   .account-gh-logo {
@@ -1491,12 +1514,17 @@ checkout 1 page */
 @media (max-width: 476px) {
   /* smaller items for small phones */
 
-  .logo {
-    width: 100px;
+  .home-img {
+    max-width: 70px;
   }
 
   .btn {
     font-size: 10px;
     padding: 5px;
+    color: black;
+  }
+
+  .hamburger-icon i {
+    top: 4.4%;
   }
 }
