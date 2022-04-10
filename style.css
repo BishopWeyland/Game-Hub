@@ -1475,6 +1475,10 @@ checkout 1 page */
     max-width: 100%;
   }
 
+  .payment-method {
+    width: 230px;
+  }
+
   .payment-container label {
     font-size: 16px;
   }
@@ -1484,7 +1488,6 @@ checkout 1 page */
   }
 
   .payment-container i {
-    display: inline-block;
     font-size: 15px;
     margin-left: 10px;
   }
