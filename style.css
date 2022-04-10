@@ -1499,7 +1499,7 @@ checkout 1 page */
   }
 
   #card-number {
-    max-width: f;
+    max-width: fit-content;
   }
 
   /* create account page phone */
