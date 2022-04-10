@@ -1250,6 +1250,7 @@ checkout 1 page */
 
   .search-card {
     background-color: transparent;
+    padding: 30px;
   }
 
   .search-card i {
