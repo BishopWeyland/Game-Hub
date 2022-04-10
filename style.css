@@ -1534,7 +1534,9 @@ checkout 1 page */
 
   .confirm-container {
     padding: 20px;
+    left: 0%;
     top: 22.4%;
+    width: 100%;
   }
 
   .confirm-container h2 {
