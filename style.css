@@ -1193,6 +1193,7 @@ checkout 1 page */
 
   .hero-content {
     width: 300px;
+    padding: 20px;
   }
 
   .hero-content h1 {
@@ -1414,6 +1415,14 @@ checkout 1 page */
     font-size: 16px;
   }
 
+  .checkout-container input {
+    width: fit-content;
+  }
+
+  .checkout-container select {
+    max-width: 190px;
+  }
+
   .checkout-grid {
     display: flex;
     flex-direction: column;
@@ -1435,6 +1444,14 @@ checkout 1 page */
 
   .order-container label {
     font-size: 16px;
+  }
+
+  .order-container input {
+    width: fit-content;
+  }
+
+  .order-container select {
+    max-width: 190px;
   }
 
   .shipping-price {
@@ -1540,6 +1557,6 @@ checkout 1 page */
 
   .hamburger-icon i {
     top: 0%;
-    margin-top: 36px;
+    margin-top: 37px;
   }
 }
