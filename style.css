@@ -1248,6 +1248,10 @@ checkout 1 page */
     gap: 0px;
   }
 
+  .search-card {
+    background-color: transparent;
+  }
+
   .search-card i {
     font-size: 30px;
   }
