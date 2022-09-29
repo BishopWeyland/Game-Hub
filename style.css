@@ -440,6 +440,7 @@ footer {
 .contact-container {
   background-color: #1c3a40;
   padding: 60px;
+  width: fit-content;
 }
 
 .contact-info {
@@ -486,11 +487,31 @@ footer {
   justify-content: left;
 }
 
+.contact-form-container {
+  background-color: #1c3a40;
+  width: fit-content;
+  padding: 60px;
+}
+
+.form-control label {
+  color: #fff;
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  margin-top: 30px;
+}
+.form-control input {
+  height: 25px;
+}
+
+#message {
+  height: 100px;
+}
+
 .contact-ad-grid {
   height: 100%;
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  row-gap: 78px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 78px;
 }
 
 .contact-ad {
