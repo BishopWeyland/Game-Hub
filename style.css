@@ -542,6 +542,10 @@ small {
   width: 95%;
 }
 
+textarea {
+  resize: none;
+}
+
 #message {
   width: 95%;
 }
