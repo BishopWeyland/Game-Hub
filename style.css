@@ -498,13 +498,46 @@ footer {
   padding: 60px;
 }
 
+.form-message {
+  background-color: #0f1e21;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  border: solid 1px #65d3eb;
+}
+
+.error-container {
+  position: absolute;
+  z-index: 2;
+  top: 55px;
+  left: 0;
+  width: 300px;
+}
+
+small {
+  color: #fcb6b6;
+}
+
+.error-container-message {
+  position: absolute;
+  z-index: 2;
+  top: 220px;
+  left: 0;
+  width: 400px;
+}
+
+.form-control {
+  margin-top: 40px;
+}
+
 .form-control label {
   color: #fff;
   font-family: "Helvetica Neue";
   font-size: 20px;
+  position: relative;
+  z-index: 1;
 }
 .form-control input {
-  margin-bottom: 30px;
   height: 25px;
   width: 95%;
 }
@@ -514,8 +547,9 @@ footer {
 }
 
 #submit-button {
-  margin-top: 30px;
+  margin-top: 50px;
   border: none;
+  font-size: 20px;
 }
 
 .contact-ad-container {
