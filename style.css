@@ -1727,10 +1727,12 @@ checkout 1 page */
 
   /* shopping-cart page phone */
 
-  .cart-container .order-container {
+  .cart-container {
     background-color: #1c3a40;
-    top: 0%;
-    right: 0%;
+  }
+
+  .show {
+    right: -8%;
   }
 }
 
