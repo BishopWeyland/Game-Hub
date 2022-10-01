@@ -36,13 +36,14 @@
   </head>
 
   <body>
-    <header>
+     <header>
       <nav>
         <section class="top_nav">
-          <a href="index.html" class="home-img"><img
-            src="images/gamehub.png"
-            alt="Game-Hub logo of a gaming controller"
-            class="logo"
+          <a href="index.html" class="home-img"
+            ><img
+              src="images/gamehub.png"
+              alt="Game-Hub logo of a gaming controller"
+              class="logo"
           /></a>
           <form class="search-form">
             <input type="search" class="search" />
@@ -50,7 +51,6 @@
             <a href="search.html" class="search-btn">
               <i class="fa-solid fa-magnifying-glass"></i
             ></a>
-
           </form>
           <ul>
             <li>
@@ -60,9 +60,9 @@
               >
             </li>
             <li>
-              <a href="shopping-cart.html">
+              <button class="add-cart"><div class="cart">
                 <i class="fa-solid fa-cart-shopping"></i>
-                <span>Cart</span></a
+                <span>Cart</span></div></button
               >
             </li>
           </ul>
@@ -84,6 +84,41 @@
           </ul>
         </section>
       </nav>
+      <div class="shopping-container">
+     <div class="cart-container">
+            <div class="order-container">
+              <div class="exit"><button ><i class="fa-solid fa-circle-xmark"></i></button></div>
+            <div class="ordered-items">
+              <img
+                src="images/GameHub_covers10.jpeg"
+                alt="Front cover of Forge Legend, it depicts an elven queen"
+              />
+              <div class="item-price">
+                <p>1 x Forge Legends</p>
+                <p>79.99$</p>
+              </div>
+              <div class="order-icons">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-circle-plus"></i>
+                <i class="fa-solid fa-circle-minus"></i>
+              </div>
+            </div>
+
+            <div class="shipping-price">
+              <p>Shipping:</p>
+              <p>10.00$</p>
+            </div>
+            <div class="total-price">
+              <p>Total:</p>
+              <p>89.99$</p>
+            </div>
+
+            
+              <a href="checkout1.html" class="btn btncheckout">Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <div class="layout-margin">
@@ -118,7 +153,7 @@
                   <div class="price-flex"><h3>79.99$ </h3><i class="fa-regular fa-heart"></i></div>
               <h4>In stock</h4>
               
-              <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a></div>
+             <button class="btn btnaddcart add-cart">Add to cart</button></div>
             </div>
         </main>
           <section class="products-container">
@@ -137,7 +172,7 @@
                   <i class="fa-regular fa-heart"></i>
                 </div>
 
-                <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a>
+                <button class="btn btnaddcart add-cart">Add to cart</button>
               </div>
               <div class="product-card">
                 <img
@@ -213,5 +248,6 @@
       </ul>
       <p>© Copyright 2022 GAMEHUB</p>
     </footer>
+    <script src="./js/shopping-cart.js"></script>
   </body>
 </html>

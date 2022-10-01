@@ -33,11 +33,11 @@
   </head>
 
   <body>
-    <header>
+     <header>
       <nav>
         <section class="top_nav">
-          <a href="index.html" class="home-img">
-            <img
+          <a href="index.html" class="home-img"
+            ><img
               src="images/gamehub.png"
               alt="Game-Hub logo of a gaming controller"
               class="logo"
@@ -57,9 +57,9 @@
               >
             </li>
             <li>
-              <a href="shopping-cart.html">
+              <button class="add-cart"><div class="cart">
                 <i class="fa-solid fa-cart-shopping"></i>
-                <span>Cart</span></a
+                <span>Cart</span></div></button
               >
             </li>
           </ul>
@@ -81,6 +81,41 @@
           </ul>
         </section>
       </nav>
+      <div class="shopping-container">
+     <div class="cart-container">
+            <div class="order-container">
+              <div class="exit"><button ><i class="fa-solid fa-circle-xmark"></i></button></div>
+            <div class="ordered-items">
+              <img
+                src="images/GameHub_covers10.jpeg"
+                alt="Front cover of Forge Legend, it depicts an elven queen"
+              />
+              <div class="item-price">
+                <p>1 x Forge Legends</p>
+                <p>79.99$</p>
+              </div>
+              <div class="order-icons">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-circle-plus"></i>
+                <i class="fa-solid fa-circle-minus"></i>
+              </div>
+            </div>
+
+            <div class="shipping-price">
+              <p>Shipping:</p>
+              <p>10.00$</p>
+            </div>
+            <div class="total-price">
+              <p>Total:</p>
+              <p>89.99$</p>
+            </div>
+
+            
+              <a href="checkout1.html" class="btn btncheckout">Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <div class="layout-margin">
       <main class="search-main">
@@ -115,7 +150,7 @@
             </div>
             <p>Playbox</p>
 
-            <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a>
+            <button class="btn btnaddcart add-cart">Add to cart</button>
           </div>
           <div class="search-card">
             <a href="game-title.html">
@@ -133,7 +168,7 @@
             </div>
             <p>Playbox</p>
 
-            <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a>
+            <button class="btn btnaddcart add-cart">Add to cart</button>
           </div>
           <div class="search-card">
             <a href="game-title.html">
@@ -151,7 +186,7 @@
             </div>
             <p>Playbox</p>
 
-            <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a>
+            <button class="btn btnaddcart add-cart">Add to cart</button>
           </div>
           <div class="search-card">
             <a href="game-title.html">
@@ -169,7 +204,7 @@
             </div>
             <p>Playbox</p>
 
-            <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a>
+            <button class="btn btnaddcart add-cart">Add to cart</button>
           </div>
           <div class="search-card">
             <a href="game-title.html">
@@ -187,7 +222,7 @@
             </div>
             <p>Playbox</p>
 
-            <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a>
+            <button class="btn btnaddcart add-cart">Add to cart</button>
           </div>
           <div class="search-card">
             <a href="game-title.html">
@@ -205,7 +240,7 @@
             </div>
             <p>Playbox</p>
 
-            <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a>
+            <button class="btn btnaddcart add-cart">Add to cart</button>
           </div>
           <div class="search-card">
             <a href="game-title.html">
@@ -223,7 +258,7 @@
             </div>
             <p>Playbox</p>
 
-            <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a>
+            <button class="btn btnaddcart add-cart">Add to cart</button>
           </div>
           <div class="search-card">
             <a href="game-title.html">
@@ -241,7 +276,7 @@
             </div>
             <p>Playbox</p>
 
-            <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a>
+            <button class="btn btnaddcart add-cart">Add to cart</button>
           </div>
           <div class="search-card">
             <a href="game-title.html">
@@ -259,7 +294,7 @@
             </div>
             <p>Playbox</p>
 
-            <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a>
+            <button class="btn btnaddcart add-cart">Add to cart</button>
           </div>
           <div class="search-card">
             <a href="game-title.html">
@@ -277,7 +312,7 @@
             </div>
             <p>Playbox</p>
 
-            <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a>
+            <button class="btn btnaddcart add-cart">Add to cart</button>
           </div>
           <div class="search-card">
             <a href="game-title.html">
@@ -295,7 +330,7 @@
             </div>
             <p>Playbox</p>
 
-            <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a>
+            <button class="btn btnaddcart add-cart">Add to cart</button>
           </div>
           <div class="search-card">
             <a href="game-title.html">
@@ -313,7 +348,7 @@
             </div>
             <p>Playbox</p>
 
-            <a href="shopping-cart.html" class="btn btnaddcart">Add to cart</a>
+            <button class="btn btnaddcart add-cart">Add to cart</button>
           </div>
         </div>
         <div class="number-btn">
@@ -343,5 +378,6 @@
       </ul>
       <p>© Copyright 2022 GAMEHUB</p>
     </footer>
+    <script src="./js/shopping-cart.js"></script>
   </body>
 </html>
