@@ -117,6 +117,12 @@ a:hover {
   text-decoration: underline;
 }
 
+button {
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
 .btn {
   color: black;
   background-color: #65d3eb;
@@ -626,6 +632,7 @@ textarea {
   display: flex;
   justify-content: right;
   margin-bottom: 20px;
+  background: none;
 }
 
 .exit i {
@@ -633,16 +640,27 @@ textarea {
   color: #65d3eb;
 }
 
+.shopping-container {
+  display: flex;
+  position: relative;
+}
+
 .cart-container {
   display: flex;
-  height: 1000px;
+  height: 100vh;
   position: fixed;
+  width: 300px;
   top: 0%;
-  right: 0%;
+  right: -10000%;
   z-index: 999;
+  transition: right 0.7s ease;
   box-shadow: 10px 10px 220px 19px rgba(0, 0, 0, 0.44);
   -webkit-box-shadow: rgba(0, 0, 0, 0.44);
   -moz-box-shadow: rgba(0, 0, 0, 0.44);
+}
+
+.show {
+  right: 0%;
 }
 
 .btncheckout {
@@ -1209,7 +1227,7 @@ checkout 1 page */
   }
 
   .top_nav li {
-    /* margin-right: 24px; */
+    margin-right: 24px;
   }
 
   .bottom_nav ul {
