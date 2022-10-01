@@ -232,12 +232,6 @@ button {
   margin-right: 0;
 }
 
-.logo {
-  width: 200px;
-  object-fit: cover;
-  margin: 12px;
-}
-
 .hamburger-icon {
   display: none;
 }
@@ -1740,7 +1734,8 @@ checkout 1 page */
   /* smaller items for small phones */
 
   .home-img {
-    max-width: 70px;
+    max-width: 150px;
+    margin: 0 auto;
   }
 
   .btnaddcart {
