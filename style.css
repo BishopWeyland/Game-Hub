@@ -1390,16 +1390,30 @@ checkout 1 page */
     font-size: 30px;
   }
 
+  .contact-form-container {
+    padding: 30px;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
   .form-control label {
     font-size: 16px;
   }
 
   .error-container {
     width: 200px;
-    left: -70px;
+  }
+
+  small {
+    font-size: 12px;
   }
 
   .error-container-message {
+    top: 200px;
     width: fit-content;
   }
 
