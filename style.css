@@ -63,6 +63,28 @@
   text-decoration: none;
 }
 
+.add-cart {
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+.cart span:hover {
+  border-bottom: solid 1px white;
+}
+
+.cart span {
+  font-size: 20px;
+  font-family: "Helvetica Neue", sans-serif;
+  color: white;
+}
+
+.cart i {
+  color: #65d3eb;
+}
+
 .bottom_nav {
   background-color: #1c3a40;
   border-bottom: solid 1px #65d3eb;
@@ -182,14 +204,14 @@ button {
   color: black;
 }
 
-.top_nav button {
+/* .top_nav button {
   appearance: none;
   border: none;
   background-color: #65d3eb;
   width: 40px;
   height: 35px;
   border-radius: 0 3px 3px 0;
-}
+} */
 
 .bottom_nav {
   background-color: #1c3a40;
