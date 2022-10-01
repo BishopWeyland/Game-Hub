@@ -429,9 +429,12 @@ footer {
 
 /* Contact page */
 
-.contact-content-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.contact-content-container {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
   margin-top: 100px;
   gap: 40px;
   margin-bottom: 100px;
@@ -563,9 +566,11 @@ textarea {
 
 .contact-ad-grid {
   height: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 78px;
+
+  display: flex;
+  margin: 0 auto;
+  width: fit-content;
+  gap: 40px;
 }
 
 .contact-ad {
@@ -1334,7 +1339,7 @@ checkout 1 page */
 
   /* phone contact page */
 
-  .contact-content-grid {
+  .contact-content-container {
     margin-top: 200px;
     text-align: center;
     display: block;
@@ -1343,12 +1348,16 @@ checkout 1 page */
   }
 
   .contact-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     margin-top: 70px;
     padding: 30px;
     width: 100%;
   }
 
   .contact-grid {
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -1364,6 +1373,7 @@ checkout 1 page */
   }
 
   .game-hub-info {
+    margin: 0 auto;
     margin-top: 100px;
     grid-row: 3;
   }
@@ -1378,6 +1388,24 @@ checkout 1 page */
   .social-media-icons i {
     padding: 0%;
     font-size: 30px;
+  }
+
+  .form-control label {
+    font-size: 16px;
+  }
+
+  .error-container {
+    width: 200px;
+    left: -70px;
+  }
+
+  .error-container-message {
+    width: fit-content;
+  }
+
+  .contact-ad-grid {
+    display: flex;
+    flex-direction: column;
   }
 
   .contact-ad {
