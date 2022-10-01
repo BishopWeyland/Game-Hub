@@ -1419,6 +1419,7 @@ checkout 1 page */
 
   .contact-ad-container {
     display: flex;
+    flex-direction: column;
     margin-bottom: 30px;
   }
 
