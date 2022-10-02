@@ -347,6 +347,10 @@ footer {
 
 /* favourite pop-up */
 
+.favorites:hover {
+  cursor: pointer;
+}
+
 .overlay {
   background-color: #0f1e21;
   background: rgba(1, 1, 1, 0.9);
