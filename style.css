@@ -1258,7 +1258,6 @@ checkout 1 page */
 
 @media (max-width: 1250px) {
   /* global style phone */
-
   h1,
   h2,
   h2 a {
@@ -1273,6 +1272,10 @@ checkout 1 page */
     color: white;
     text-decoration: none;
     font-family: "Helvetica Neue", sans-serif;
+    font-size: 13px;
+  }
+
+  .continue {
     font-size: 13px;
   }
 
