@@ -345,6 +345,48 @@ footer {
   right: 5%;
 }
 
+/* favourite pop-up */
+
+.overlay {
+  background-color: #0f1e21;
+  background: rgba(1, 1, 1, 0.9);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 998;
+  top: -1000%;
+}
+
+.pop-up-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.favorite-pop-up {
+  padding: 30px;
+  background-color: #1c3a40;
+  border: solid 1px #65d3eb;
+  position: fixed;
+  z-index: 999;
+  top: -1000%;
+}
+
+.button-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.show-overlay {
+  top: 0%;
+}
+
+.show-pop-up {
+  top: 20%;
+}
+
 /* index */
 
 .hero {
