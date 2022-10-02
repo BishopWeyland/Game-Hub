@@ -706,6 +706,14 @@ textarea {
 
 /* search page */
 
+.search-breadcrumbs ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 250px;
+  margin-top: 20px;
+}
+
 .search-info {
   display: flex;
   justify-content: space-between;
@@ -721,6 +729,7 @@ textarea {
 .search-sorting {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .search-sorting select {
@@ -794,6 +803,17 @@ textarea {
   place-items: center;
   margin: 0px 10px;
   font-family: "avenir black";
+}
+
+.results-number {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: end;
+}
+
+.results-number select {
+  background-color: #0f1e21;
+  color: #fff;
 }
 
 /* account page */
@@ -1234,7 +1254,7 @@ checkout 1 page */
     grid-column: 3;
   }
 
-  .top_nav .search-form {
+  .search-form {
     grid-column: 1 / span 3;
     grid-row: 2;
     width: 100%;
