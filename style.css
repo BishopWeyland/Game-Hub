@@ -1755,10 +1755,6 @@ checkout 1 page */
     flex-direction: column;
   }
 
-  .contact-ad {
-    width: 80px;
-  }
-
   /* account page  */
 
   .account-list {
@@ -1897,4 +1893,8 @@ checkout 1 page */
   }
 
   /* contact page */
+
+  .contact-ad {
+    width: 100px;
+  }
 }
