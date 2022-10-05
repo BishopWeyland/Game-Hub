@@ -1198,15 +1198,17 @@ checkout 1 page */
 
   .home-img {
     display: block;
-    /* width: 125px; */
+    justify-self: center;
     object-fit: cover;
-    /* margin: 12px; */
     grid-column: 2;
   }
 
   .home-img .logo {
-    width: initial;
     margin: 0;
+  }
+
+  .logo img {
+    width: 100px;
   }
 
   .top_nav {
@@ -1269,23 +1271,6 @@ checkout 1 page */
   .bottom_nav a {
     font-size: 32px;
   }
-
-  /* .hamburger-icon {
-    display: block;
-  }
-
-  .hamburger-icon i {
-    color: #65d3eb;
-    font-size: 18px;
-    position: fixed;
-    top: 6%;
-    left: 15%;
-    z-index: 999;
-  }
-
-  #checkbox-input:checked ~ .bottom_nav {
-    transform: translateX(0);
-  } */
 
   footer {
     border-top: none;
