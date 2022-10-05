@@ -1283,11 +1283,18 @@ checkout 1 page */
   /* index phone */
 
   .grid {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .btnaddcart {
     width: fit-content;
+  }
+
+  .add-cart {
+    font-size: 13px;
+  }
+
+  .product-card img {
   }
 
   .inner-grid i {
@@ -1296,7 +1303,6 @@ checkout 1 page */
 
   .hero {
     height: 300px;
-    margin-top: 180px;
   }
 
   .hero-content {
@@ -1705,8 +1711,17 @@ checkout 1 page */
   }
 }
 
-@media (max-width: 476px) {
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 550px) {
   /* smaller items for small phones */
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   .home-img {
     max-width: 150px;
