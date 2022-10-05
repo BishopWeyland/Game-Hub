@@ -1385,7 +1385,7 @@ checkout 1 page */
   /* phone contact page */
 
   .contact-content-container {
-    margin-top: 200px;
+    margin-top: 20px;
     text-align: center;
     display: block;
     justify-content: center;
@@ -1396,7 +1396,7 @@ checkout 1 page */
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 20px;
     padding: 30px;
     width: 100%;
   }
@@ -1559,7 +1559,7 @@ checkout 1 page */
     margin: 5px 40px;
   }
   .checkout-container {
-    margin-top: 0px;
+    margin: 0 auto;
   }
 
   .checkout-container label {
@@ -1615,6 +1615,18 @@ checkout 1 page */
 
   /* checkout2 page phone */
 
+  .checkout-h1 {
+    margin: 0 auto;
+    width: 230px;
+  }
+
+  .form-grid {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+
   .payment-container {
     background-color: #0f1e21;
     padding: 0px;
@@ -1652,10 +1664,16 @@ checkout 1 page */
   }
 
   /* create account page phone */
+
+  .account-grid {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
   .account-container {
-    margin-top: 150px;
     background-color: #1c3a40;
-    max-width: 100%;
+    margin: 0 auto;
   }
 
   .account-form label {
