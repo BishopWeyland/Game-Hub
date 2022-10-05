@@ -1475,72 +1475,50 @@ checkout 1 page */
 
   /* game-title phone */
 
-  .flexbox-container {
-    display: grid;
-    gap: 10px;
-  }
-
-  .flexbox-item1 {
-    grid-row: 1;
+  .game-photo img {
+    width: 300px;
   }
 
   .flexbox-item {
-    width: fit-content;
-    margin: 0px auto;
-  }
-
-  .flexbox-item-2 {
-    grid-row: 2;
-    max-width: fit-content;
-  }
-
-  .flexbox-item-2 h2 {
-    font-size: 14px;
+    margin-right: 30px;
   }
 
   .flexbox-item-3 {
-    grid-row: 3;
-    width: fit-content;
-    margin: 20px 0px;
-  }
-
-  .flexbox-item-3 h3 {
-    font-size: 12px;
-  }
-
-  .flexbox-item-3 h4 {
-    font-size: 14px;
-  }
-
-  .flexbox-item-3 i {
-    font-size: 20px;
-  }
-
-  .game-photo {
-    display: flex;
-    justify-content: center;
-    margin-top: 140px;
-  }
-
-  .game-photo img {
-    width: 171px;
+    margin-right: 0px;
   }
 
   .product-photos img {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
   }
 
   .product-photos {
-    width: 200px;
-    margin: 20px;
+    width: 300px;
+    margin-top: 20px;
   }
 
   .product-photos i {
-    height: 40px;
-    width: 40px;
-    font-size: 20px;
-    padding-top: 10px;
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    padding-top: 12px;
+  }
+
+  .flexbox-item-2 h2 {
+    font-size: 18px;
+  }
+
+  .flexbox-item-3 h3 {
+    font-size: 18px;
+  }
+
+  .flexbox-item-3 h4 {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .flexbox-item-3 i {
+    font-size: 30px;
   }
 
   /* checkout1 page phone */
@@ -1714,6 +1692,75 @@ checkout 1 page */
 @media (max-width: 900px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* game-title phone  */
+  .flexbox-container {
+    display: grid;
+    gap: 10px;
+  }
+
+  .flexbox-item1 {
+    grid-row: 1;
+  }
+
+  .flexbox-item {
+    width: fit-content;
+    margin: 0px auto;
+  }
+
+  .flexbox-item-2 {
+    grid-row: 2;
+    max-width: fit-content;
+  }
+
+  .flexbox-item-2 h2 {
+    font-size: 14px;
+  }
+
+  .flexbox-item-3 {
+    grid-row: 3;
+    width: fit-content;
+    margin: 20px 0px;
+  }
+
+  .flexbox-item-3 h3 {
+    font-size: 12px;
+  }
+
+  .flexbox-item-3 h4 {
+    font-size: 14px;
+  }
+
+  .flexbox-item-3 i {
+    font-size: 20px;
+  }
+
+  .game-photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+  }
+
+  .game-photo img {
+    width: 171px;
+  }
+
+  .product-photos img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .product-photos {
+    width: 200px;
+    margin: 20px;
+  }
+
+  .product-photos i {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    padding-top: 10px;
   }
 }
 @media (max-width: 550px) {
