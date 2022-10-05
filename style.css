@@ -415,8 +415,6 @@ button {
 /* Contact page */
 
 .contact-content-container {
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
   display: flex;
   margin: 0 auto;
   width: fit-content;
@@ -1532,135 +1530,26 @@ checkout 1 page */
     font-size: 30px;
   }
 
-  /* checkout1 page phone */
+  /* checkout1 */
 
-  .checkout-progress1 {
-    margin-top: 180px;
-  }
-
-  .checkout-progress1 a {
-    margin: 20px 15px;
-  }
-
-  .checkout-progress2::after {
-    width: 70%;
-  }
-
-  .active-number {
-    height: 30px;
-    width: 30px;
-    font-size: 20px;
-    margin: 0px 40px;
-  }
-
-  .inactive-number {
-    height: 20px;
-    width: 20px;
-    margin: 5px 40px;
-  }
   .checkout-container {
-    margin: 0 auto;
-  }
-
-  .checkout-container label {
-    font-size: 16px;
-  }
-
-  .checkout-container input {
-    width: fit-content;
-  }
-
-  .checkout-container select {
-    max-width: 190px;
+    display: flex;
+    flex-direction: column;
   }
 
   .checkout-grid {
-    display: flex;
-    flex-direction: column;
+    gap: 30px;
   }
 
-  #countries {
-    width: 300px;
-  }
+  /* checkout2 page */
 
-  .checkout-info2 {
-    display: flex;
-    grid-row: 3;
-    grid-column: 1;
-  }
-
-  .order-container {
-    background-color: #0f1e21;
-  }
-
-  .order-container label {
-    font-size: 16px;
-  }
-
-  .order-container input {
+  .payment-container {
     width: fit-content;
-  }
-
-  .order-container select {
-    max-width: 190px;
-  }
-
-  .shipping-price {
-    border-top: 1px solid #65d3eb;
-  }
-
-  .total-price {
-    border-bottom: 1px solid #65d3eb;
-  }
-
-  /* checkout2 page phone */
-
-  .checkout-h1 {
-    margin: 0 auto;
-    width: 230px;
   }
 
   .form-grid {
-    margin: 0 auto;
-    width: fit-content;
     display: flex;
     flex-direction: column;
-  }
-
-  .payment-container {
-    background-color: #0f1e21;
-    padding: 0px;
-    max-width: 100%;
-  }
-
-  .payment-method {
-    width: 230px;
-  }
-
-  .payment-container label {
-    font-size: 16px;
-  }
-
-  .payment-container input {
-    width: fit-content;
-  }
-
-  .payment-container i {
-    font-size: 15px;
-    margin-left: 10px;
-  }
-
-  .payment-card {
-    grid-column: 1;
-    grid-row: 3;
-  }
-
-  .payment-card input {
-    width: 80px;
-  }
-
-  #card-number {
-    max-width: fit-content;
   }
 
   /* create account page phone */
@@ -1803,6 +1692,45 @@ checkout 1 page */
   .add-cart {
     width: fit-content;
   }
+
+  /* checkout1 */
+
+  .checkout-progress1 {
+    margin-top: 0px;
+  }
+
+  .checkout-progress1 a {
+    margin: 20px 15px;
+  }
+
+  .checkout-progress2::after {
+    width: 70%;
+  }
+
+  .active-number {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    margin: 0px 40px;
+  }
+
+  .inactive-number {
+    height: 20px;
+    width: 20px;
+    margin: 5px 40px;
+  }
+
+  .checkout-container input {
+    width: fit-content;
+  }
+
+  #shipping {
+    width: 200px;
+  }
+
+  .order-form input {
+    width: 200px;
+  }
 }
 @media (max-width: 565px) {
   /* smaller items for small phones */
@@ -1826,5 +1754,112 @@ checkout 1 page */
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px;
+  }
+
+  /* checkout1 page phone */
+
+  .checkout-container {
+    margin: 0 auto;
+  }
+
+  .checkout-container label {
+    font-size: 16px;
+  }
+
+  .checkout-container input {
+    width: fit-content;
+  }
+
+  .checkout-container select {
+    max-width: 190px;
+  }
+
+  .checkout-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #countries {
+    width: 300px;
+  }
+
+  .checkout-info2 {
+    display: flex;
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .order-container {
+    background-color: #0f1e21;
+  }
+
+  .order-container label {
+    font-size: 16px;
+  }
+
+  .order-container input {
+    width: fit-content;
+  }
+
+  .order-container select {
+    max-width: 190px;
+  }
+
+  .shipping-price {
+    border-top: 1px solid #65d3eb;
+  }
+
+  .total-price {
+    border-bottom: 1px solid #65d3eb;
+  }
+
+  /* checkout2 page phone */
+
+  .checkout-h1 {
+    margin: 0 auto;
+    width: 230px;
+  }
+
+  .form-grid {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .payment-container {
+    background-color: #0f1e21;
+    padding: 0px;
+    max-width: 100%;
+  }
+
+  .payment-method {
+    width: 230px;
+  }
+
+  .payment-container label {
+    font-size: 16px;
+  }
+
+  .payment-container input {
+    width: fit-content;
+  }
+
+  .payment-container i {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  .payment-card {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .payment-card input {
+    width: 80px;
+  }
+
+  #card-number {
+    max-width: fit-content;
   }
 }
