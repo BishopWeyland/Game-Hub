@@ -49,6 +49,54 @@ footer li {
 footer {
   border-top: solid 1px #65d3eb;
 }
+
+h1,
+h2,
+h2 a {
+  color: #65d3eb;
+  text-decoration: none;
+  font-family: "Avenir Black";
+  font-size: 40px;
+}
+
+a,
+p {
+  color: white;
+  text-decoration: none;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+.top_nav ul a i {
+  color: #65d3eb;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
+.btn {
+  color: black;
+  background-color: #65d3eb;
+  text-decoration: none;
+  font-family: "avenir black";
+  padding: 6px 20px;
+  border-radius: 44px;
+  box-shadow: inset 1px 1px 1px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #348b9e;
+  text-decoration: none;
+}
+
 .social-media-icons i {
   color: #65d3eb;
   font-size: 50px;
@@ -73,6 +121,7 @@ footer {
 .burger-menu {
   display: none;
   justify-self: flex-start;
+  color: #65d3eb;
 }
 
 .top_nav ul {
@@ -87,7 +136,7 @@ footer {
 
 .top_nav .search-form {
   display: flex;
-  align-items: center;
+  justify-self: center;
   width: 100%;
   max-width: 535px;
 }
@@ -166,53 +215,6 @@ footer {
   margin: 12px;
 }
 
-h1,
-h2,
-h2 a {
-  color: #65d3eb;
-  text-decoration: none;
-  font-family: "Avenir Black";
-  font-size: 40px;
-}
-
-a,
-p {
-  color: white;
-  text-decoration: none;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 20px;
-}
-
-.top_nav ul a i {
-  color: #65d3eb;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-button {
-  background: none;
-  border: none;
-  font-size: 20px;
-}
-
-.btn {
-  color: black;
-  background-color: #65d3eb;
-  text-decoration: none;
-  font-family: "avenir black";
-  padding: 6px 20px;
-  border-radius: 44px;
-  box-shadow: inset 1px 1px 1px;
-}
-
-.btn:hover {
-  color: white;
-  background-color: #348b9e;
-  text-decoration: none;
-}
-
 .top_nav {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -240,15 +242,6 @@ button {
 .search-form a {
   color: black;
 }
-
-/* .top_nav button {
-  appearance: none;
-  border: none;
-  background-color: #65d3eb;
-  width: 40px;
-  height: 35px;
-  border-radius: 0 3px 3px 0;
-} */
 
 .bottom_nav {
   background-color: #1c3a40;
