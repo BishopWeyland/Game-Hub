@@ -1696,12 +1696,9 @@ checkout 1 page */
 
   /* game-title phone  */
   .flexbox-container {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
-  }
-
-  .flexbox-item1 {
-    grid-row: 1;
   }
 
   .flexbox-item {
@@ -1710,7 +1707,6 @@ checkout 1 page */
   }
 
   .flexbox-item-2 {
-    grid-row: 2;
     max-width: fit-content;
   }
 
@@ -1719,7 +1715,6 @@ checkout 1 page */
   }
 
   .flexbox-item-3 {
-    grid-row: 3;
     width: fit-content;
     margin: 20px 0px;
   }
@@ -1739,7 +1734,7 @@ checkout 1 page */
   .game-photo {
     display: flex;
     justify-content: center;
-    margin-top: 140px;
+    margin-top: 0px;
   }
 
   .game-photo img {
