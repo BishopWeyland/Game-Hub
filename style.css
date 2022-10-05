@@ -1330,14 +1330,21 @@ checkout 1 page */
   }
 
   /* search page phone */
+
+  .search-breadcrumbs ul {
+    width: 160px;
+    margin-left: 10px;
+  }
+
   .search-main {
-    margin-top: 180px;
+    margin-top: 20px;
     background-color: #1c3a40;
     padding: 20px 0px 30px;
   }
 
   .search-grid {
     max-width: fit-content;
+    margin: 0 auto;
   }
 
   .search-info select {
@@ -1358,7 +1365,7 @@ checkout 1 page */
 
   .search-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: 0px;
   }
 
@@ -1369,6 +1376,10 @@ checkout 1 page */
 
   .search-card i {
     font-size: 20px;
+  }
+
+  #number-of-results {
+    margin-right: 10px;
   }
 
   /* phone contact page */
@@ -1757,8 +1768,25 @@ checkout 1 page */
     font-size: 20px;
     padding-top: 10px;
   }
+
+  /* search page */
+
+  .search-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+  }
+
+  .search-card {
+    width: fit-content;
+    padding: 20px;
+  }
+
+  .add-cart {
+    width: fit-content;
+  }
 }
-@media (max-width: 550px) {
+@media (max-width: 565px) {
   /* smaller items for small phones */
 
   .grid {
@@ -1776,8 +1804,9 @@ checkout 1 page */
     color: black;
   }
 
-  .hamburger-icon i {
-    top: 0%;
-    margin-top: 37px;
+  .search-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
   }
 }
