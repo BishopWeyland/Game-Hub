@@ -1393,6 +1393,10 @@ checkout 1 page */
 
   /* phone contact page */
 
+  .contact-content-container {
+    margin-top: 20px;
+  }
+
   .contact-container {
     text-align: center;
     display: flex;
@@ -1476,7 +1480,7 @@ checkout 1 page */
 
   .contact-ad {
     width: 340px;
-    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
   }
@@ -1584,6 +1588,7 @@ checkout 1 page */
 
   .account-list {
     margin-bottom: 40px;
+    width: 320px;
   }
 
   /* order confirm page phone */
@@ -1748,6 +1753,12 @@ checkout 1 page */
   .contact-ad-grid {
     display: flex;
     flex-direction: column;
+  }
+
+  /* account page  */
+
+  .account-list {
+    width: fit-content;
   }
 }
 @media (max-width: 565px) {
