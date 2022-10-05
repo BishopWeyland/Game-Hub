@@ -1291,6 +1291,11 @@ checkout 1 page */
   .social-media-icons i {
     font-size: 27px;
   }
+  /* shopping cart */
+
+  .cart-container {
+    width: fit-content;
+  }
 
   /* index phone */
 
@@ -1329,9 +1334,8 @@ checkout 1 page */
     font-size: 18px;
   }
 
-  .twocol {
-    grid-template-columns: 1fr;
-    row-gap: 64px;
+  .products-container {
+    margin-top: 30px;
   }
 
   .advertising-section {
@@ -1607,17 +1611,23 @@ checkout 1 page */
   /* shopping-cart page phone */
 
   .cart-container {
-    background-color: #1c3a40;
+    background-color: #0f1e21;
   }
 
   .show {
-    right: -8%;
+    right: 0%;
   }
 }
 
 @media (max-width: 900px) {
+  /* index page  */
+
   .grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .twocol {
+    grid-template-columns: 1fr;
+    row-gap: 64px;
   }
 
   /* game-title phone  */
@@ -1741,6 +1751,10 @@ checkout 1 page */
   }
 
   /* contact page */
+
+  .contact-container {
+    margin-bottom: 20px;
+  }
 
   .contact-content-container {
     margin-top: 20px;
