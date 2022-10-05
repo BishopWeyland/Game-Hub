@@ -1891,4 +1891,10 @@ checkout 1 page */
   #card-number {
     max-width: fit-content;
   }
+
+  /* contact page */
+
+  .contact-ad {
+    width: 280px;
+  }
 }
