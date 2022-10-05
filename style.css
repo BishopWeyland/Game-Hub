@@ -109,7 +109,7 @@ button {
 }
 
 .social-media-icons li {
-  margin-right: 20px;
+  margin: 0px 10px;
 }
 
 .scroll-btn {
@@ -1171,6 +1171,20 @@ checkout 1 page */
   width: 100px;
 }
 
+@media (max-width: 1500px) {
+  /* contact page */
+
+  .contact-info {
+    padding-right: 50px;
+  }
+
+  /* search page */
+
+  .add-cart {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 1250px) {
   /* global style phone */
   h1,
@@ -1292,9 +1306,6 @@ checkout 1 page */
     font-size: 13px;
   }
 
-  .product-card img {
-  }
-
   .inner-grid i {
     font-size: 30px;
   }
@@ -1382,19 +1393,11 @@ checkout 1 page */
 
   /* phone contact page */
 
-  .contact-content-container {
-    margin-top: 20px;
-    text-align: center;
-    display: block;
-    justify-content: center;
-    gap: 0;
-  }
-
   .contact-container {
+    text-align: center;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    margin-top: 20px;
     padding: 30px;
     width: 100%;
   }
@@ -1416,6 +1419,7 @@ checkout 1 page */
   }
 
   .game-hub-info {
+    text-align: center;
     margin: 0 auto;
     margin-top: 100px;
     grid-row: 3;
@@ -1447,6 +1451,10 @@ checkout 1 page */
     font-size: 16px;
   }
 
+  #submit-button {
+    width: fit-content;
+  }
+
   .error-container {
     width: 200px;
   }
@@ -1466,13 +1474,8 @@ checkout 1 page */
     margin-bottom: 30px;
   }
 
-  .contact-ad-grid {
-    display: flex;
-    flex-direction: column;
-  }
-
   .contact-ad {
-    width: 100%;
+    width: 340px;
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -1730,6 +1733,21 @@ checkout 1 page */
 
   .order-form input {
     width: 200px;
+  }
+
+  /* contact page */
+
+  .contact-content-container {
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .contact-ad-grid {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 565px) {
