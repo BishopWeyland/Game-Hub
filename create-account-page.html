@@ -138,21 +138,36 @@
           <div class="account-flex">
             <div class="account-container">
               <h1>Create account</h1>
+              <form id="form">
               <div class="account-form">
-                <label for="first-name">First name:</label>
+                <div class="form-control">
+                  <label for="first-name">First name:</label>
                 <input type="text" id="first-name" />
+                <small id="fn-error" class="CA-error-container"></small>
+              </div>
+              <div class="form-control">
                 <label for="last-name">Last name:</label>
                 <input type="text" id="last-name" />
+                <small id="ln-error" class="CA-error-container"></small>
+              </div>  
+               <div class="form-control">
                 <label for="e-mail">E-mail:</label>
-                <input type="email" id="e-mail" />
-                <label for="password1">Password:</label>
-                <input type="password" id="password1" />
-                <label for="password2">Confirm password:</label>
-                <input type="password" id="password2" />
+                <input type="email" id="email" />
+                <small id="email-error" class="CA-error-container"></small>
               </div>
-              <a href="account.html" class="btn btncreateaccount"
-                >Create account</a
-              >
+                <div class="form-control">
+                  <label for="password1">Password:</label>
+                <input type="password" id="password1" />
+                <small id="pass1-error" class="CA-error-container"></small>
+                </div>
+                <div class="form-control">
+                   <label for="password2">Confirm password:</label>
+                <input type="password" id="password2" />
+                 <small id="pass2-error" class="CA-error-container"></small>
+                </div>
+                <input type="submit" value="Create account" id="submit-button" class="btn">
+               </form>
+              </div>
               <p>Already have an account? <a href="">(Sign-in)</a></p>
             </div>
           </div>
@@ -177,5 +192,6 @@
       <p>© Copyright 2022 GAMEHUB</p>
     </footer>
      <script src="./js/shopping-cart.js"></script>
+        <script src="./js/account-form.js"></script>
   </body>
 </html>

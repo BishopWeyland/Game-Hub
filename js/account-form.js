@@ -3,15 +3,16 @@ const form = document.querySelector("#form");
 const firstName = document.querySelector("#first-name");
 const lastName = document.querySelector("#last-name");
 const email = document.querySelector("#email");
-const message = document.querySelector("#message");
-const submitMessage = document.querySelector("#submit-message");
+const password1 = document.querySelector("#password1");
+const password2 = document.querySelector("#password2");
 const button = document.querySelector("#submit-button");
 
 //Error containers
 const fNameError = document.querySelector("#fn-error");
 const lNameError = document.querySelector("#ln-error");
 const emailError = document.querySelector("#email-error");
-const messageError = document.querySelector("#message-error");
+const password1Error = document.querySelector("#pass1-error");
+const password2Error = document.querySelector("#pass2-error");
 
 function validateForm(event) {
   event.preventDefault();
@@ -28,17 +29,23 @@ function validateForm(event) {
     emailError.innerHTML = "You need to input a valid e-mail.";
   }
 
-  if (!checkLength(message.value, 25)) {
-    messageError.innerHTML = "Your message needs to be atleast 25 characters.";
+  if (!validatePassword(password1.value)) {
+    password1Error.innerHTML =
+      "Your password most contain one number and one uppercase letter";
+  }
+
+  if (!confirmPassword(password2)) {
+    password2Error.innerHTML = "You need to input a valid password.";
   }
 
   if (
     checkLength(firstName.value, 1) &&
     checkLength(lastName.value, 1) &&
     validateEmail(email.value) &&
-    checkLength(message.value, 25)
+    validatePassword(password1.value) &&
+    confirmPassword(password2)
   ) {
-    submitMessage.innerHTML = `<div class="form-message"><p>Your message has been sent. You will receive a response on your e-mail.</p></div>`;
+    button.onClick((location.href = "account.html"));
     form.reset();
   }
 }
@@ -57,3 +64,18 @@ function validateEmail(email) {
   const patternMatch = regEx.test(email);
   return patternMatch;
 }
+
+function validatePassword(password1) {
+  const passRegEx = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+  const passPatternMatch = passRegEx.test(password1);
+  return passPatternMatch;
+}
+
+function confirmPassword(password2) {
+  if (password2.value === password1.value) {
+    return true;
+  }
+  return false;
+}
+
+//Aaaaaaa1

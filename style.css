@@ -484,6 +484,11 @@ button {
   padding: 60px;
 }
 
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
 .form-message {
   background-color: #0f1e21;
   padding: 10px;
@@ -882,8 +887,6 @@ textarea {
 
 .account-grid {
   background-color: #1c3a40;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   align-items: flex-start;
 }
 
