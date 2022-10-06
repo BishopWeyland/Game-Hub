@@ -673,6 +673,7 @@ textarea {
 /* search page */
 
 .breadcrumbs ul {
+  align-items: center;
   display: flex;
   flex-direction: row;
   width: fit-content;
@@ -806,6 +807,10 @@ textarea {
   font-family: "Helvetica Neue", sans-serif;
   color: white;
   margin-right: 30px;
+}
+
+#backButton:hover {
+  border-bottom: solid 1px white;
 }
 
 .flexbox-container {
