@@ -667,7 +667,7 @@ textarea {
 
 /* search page */
 
-.search-breadcrumbs ul {
+.breadcrumbs ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1344,7 +1344,7 @@ checkout 1 page */
 
   /* search page phone */
 
-  .search-breadcrumbs ul {
+  .breadcrumbs ul {
     width: 160px;
     margin-left: 10px;
   }
