@@ -675,9 +675,12 @@ textarea {
 .breadcrumbs ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 250px;
+  width: fit-content;
   margin-top: 20px;
+}
+
+.breadcrumbs li {
+  margin-right: 30px;
 }
 
 .search-info {
@@ -798,6 +801,12 @@ textarea {
 }
 
 /* game-title page */
+
+#backButton {
+  font-family: "Helvetica Neue", sans-serif;
+  color: white;
+  margin-right: 30px;
+}
 
 .flexbox-container {
   display: flex;
@@ -1348,9 +1357,8 @@ checkout 1 page */
 
   /* search page phone */
 
-  .breadcrumbs ul {
-    width: 160px;
-    margin-left: 10px;
+  #backButton {
+    font-size: 13px;
   }
 
   .search-main {
@@ -1914,5 +1922,14 @@ checkout 1 page */
 
   .contact-ad {
     width: 260px;
+  }
+
+  /* game-title */
+  .breadcrumbs li {
+    margin-right: 10px;
+  }
+
+  #backButton {
+    margin-right: 10px;
   }
 }
