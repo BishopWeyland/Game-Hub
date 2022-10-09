@@ -1372,6 +1372,10 @@ checkout 1 page */
 
   /* search page phone */
 
+  .breadcrumbs {
+    margin-left: 10px;
+  }
+
   #backButton {
     font-size: 13px;
   }
@@ -1965,7 +1969,7 @@ checkout 1 page */
 
   /* game-title */
   .breadcrumbs li {
-    margin-right: 10px;
+    margin: 10px;
   }
 
   #backButton {
