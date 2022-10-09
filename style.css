@@ -1199,6 +1199,10 @@ checkout 1 page */
 }
 
 @media (max-width: 1500px) {
+  .product-card .btn {
+    font-size: 14px;
+  }
+
   /* contact page */
 
   .contact-info {
@@ -1948,7 +1952,7 @@ checkout 1 page */
   /* create account page */
 
   .ca-error-container {
-    width: 200px;
+    width: 220px;
   }
 
   /* game-title */
