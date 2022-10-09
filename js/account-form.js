@@ -1,18 +1,20 @@
 import { checkLength, validateEmail } from "./form-validation.js";
+import {
+  form,
+  firstName,
+  lastName,
+  email,
+  fNameError,
+  lNameError,
+  emailError,
+} from "./form-variables.js";
 
 //form
-const form = document.querySelector("#form");
-const firstName = document.querySelector("#first-name");
-const lastName = document.querySelector("#last-name");
-const email = document.querySelector("#email");
 const password1 = document.querySelector("#password1");
 const password2 = document.querySelector("#password2");
 const button = document.querySelector("#submit-button");
 
 //Error containers
-const fNameError = document.querySelector("#fn-error");
-const lNameError = document.querySelector("#ln-error");
-const emailError = document.querySelector("#email-error");
 const password1Error = document.querySelector("#pass1-error");
 const password2Error = document.querySelector("#pass2-error");
 
@@ -66,5 +68,3 @@ function confirmPassword(password2) {
   }
   return false;
 }
-
-//Aaaaaaa1

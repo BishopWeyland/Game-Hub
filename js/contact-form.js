@@ -1,18 +1,20 @@
 import { checkLength, validateEmail } from "./form-validation.js";
-
+import {
+  form,
+  firstName,
+  lastName,
+  email,
+  fNameError,
+  lNameError,
+  emailError,
+} from "./form-variables.js";
 //form
-const form = document.querySelector("#form");
-const firstName = document.querySelector("#first-name");
-const lastName = document.querySelector("#last-name");
-const email = document.querySelector("#email");
+
 const message = document.querySelector("#message");
 const submitMessage = document.querySelector("#submit-message");
-const button = document.querySelector("#submit-button");
 
 //Error containers
-const fNameError = document.querySelector("#fn-error");
-const lNameError = document.querySelector("#ln-error");
-const emailError = document.querySelector("#email-error");
+
 const messageError = document.querySelector("#message-error");
 
 function validateForm(event) {
