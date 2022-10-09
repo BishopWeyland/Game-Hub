@@ -48,6 +48,7 @@ footer li {
 
 footer {
   border-top: solid 1px #65d3eb;
+  padding-bottom: 20px;
 }
 
 h1,
@@ -132,6 +133,10 @@ button {
 
 .top_nav ul li {
   justify-self: flex-end;
+}
+
+.top_nav span {
+  margin-left: 10px;
 }
 
 .top_nav .search-form {
