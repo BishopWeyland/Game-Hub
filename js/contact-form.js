@@ -43,6 +43,7 @@ function validateForm(event) {
     checkLength(message.value, 25)
   ) {
     submitMessage.innerHTML = `<div class="form-message"><p>Your message has been sent. You will receive a response on your e-mail.</p></div>`;
+    submitMessage.scrollIntoView();
     form.reset();
   }
 }
