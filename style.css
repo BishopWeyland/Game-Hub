@@ -1936,6 +1936,10 @@ checkout 1 page */
     font-size: 10px;
   }
 
+  #submit-button {
+    font-size: 13px;
+  }
+
   /* create account page */
 
   .ca-error-container {
