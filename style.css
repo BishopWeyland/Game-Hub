@@ -321,7 +321,7 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 600px;
   display: grid;
   place-items: center;
 }
@@ -1348,7 +1348,7 @@ checkout 1 page */
   }
 
   .hero-content {
-    width: 300px;
+    width: 400px;
     padding: 20px;
   }
 
@@ -1802,6 +1802,18 @@ checkout 1 page */
 }
 @media (max-width: 565px) {
   /* smaller items for small phones */
+
+  .hero-content {
+    width: 300px;
+  }
+
+  .hero h2 {
+    margin-bottom: 20px;
+  }
+
+  .hero p {
+    display: none;
+  }
 
   .grid {
     grid-template-columns: repeat(1, 1fr);
