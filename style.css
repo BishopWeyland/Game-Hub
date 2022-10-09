@@ -593,8 +593,7 @@ textarea {
 .confirm-container {
   margin: 100px;
   background-color: #1c3a40;
-  padding: 51px;
-  justify-content: center;
+  padding: 50px;
   border-bottom: 1px solid #65d3eb;
   box-shadow: 10px 10px 220px 19px rgba(0, 0, 0, 0.44);
   -webkit-box-shadow: rgba(0, 0, 0, 0.44);
@@ -1960,5 +1959,15 @@ checkout 1 page */
 
   #backButton {
     margin-right: 10px;
+  }
+
+  /* order-confirm page */
+
+  .confirm-container h1 {
+    font-size: 16px;
+  }
+
+  .confirm-container h2 {
+    font-size: 14px;
   }
 }
