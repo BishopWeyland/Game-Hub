@@ -591,20 +591,18 @@ textarea {
 /* order confirmed page */
 
 .confirm-container {
+  margin: 100px;
   background-color: #1c3a40;
   padding: 51px;
-  text-align: center;
-  position: fixed;
   justify-content: center;
   border-bottom: 1px solid #65d3eb;
-  top: 40%;
-  z-index: 999;
   box-shadow: 10px 10px 220px 19px rgba(0, 0, 0, 0.44);
   -webkit-box-shadow: rgba(0, 0, 0, 0.44);
   -moz-box-shadow: rgba(0, 0, 0, 0.44);
 }
 
 .confirm-container h2 {
+  margin-bottom: 30px;
   font-size: 30px;
   color: #fff;
 }
@@ -1627,10 +1625,10 @@ checkout 1 page */
   /* order confirm page phone */
 
   .confirm-container {
+    margin: 50px 0px;
     padding: 20px;
-    left: 0%;
-    top: 22.4%;
     width: 100%;
+    text-align: center;
   }
 
   .confirm-container h2 {

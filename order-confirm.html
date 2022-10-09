@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Game-Hub order confirmation "pop-up"</title>
+    <title>Game-Hub checkout step 2</title>
     <meta
       name="description"
-      content="Game-Hub confirmation for your purchase."
+      content="Game-Hub checkout where you put in payment info"
     />
     <meta
       name="keywords"
@@ -18,31 +18,16 @@
       src="https://kit.fontawesome.com/3f8b4b390b.js"
       crossorigin="anonymous"
     ></script>
-    <script>
-      (function (h, o, t, j, a, r) {
-        h.hj =
-          h.hj ||
-          function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
-        h._hjSettings = { hjid: 3153979, hjsv: 6 };
-        a = o.getElementsByTagName("head")[0];
-        r = o.createElement("script");
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-    </script>
   </head>
 
   <body>
-    <header>
+  <header>
       <nav>
         <section class="top_nav">
           <button class="burger-menu"><i class="fa-solid fa-bars"></i
         ></button>
-          <a href="index.html"
-             class="home-img"><img
+          <a href="index.html" class="home-img"
+            ><img
               src="images/gamehub.png"
               alt="Game-Hub logo of a gaming controller"
               class="logo"
@@ -62,15 +47,13 @@
               >
             </li>
             <li>
-              <a href="shopping-cart.html">
+              <button class="add-cart"><div class="cart">
                 <i class="fa-solid fa-cart-shopping"></i>
-                <span>Cart</span></a
+                <span>Cart</span></div></button
               >
             </li>
           </ul>
         </section>
-
-        <input type="checkbox" id="checkbox-input" value="" />
 
         <section class="bottom_nav">
           <ul>
@@ -83,197 +66,71 @@
           </ul>
         </section>
       </nav>
+      <div class="shopping-container">
+     <div class="cart-container">
+            <div class="order-container">
+              <div class="exit"><button ><i class="fa-solid fa-circle-xmark"></i></button></div>
+            <div class="ordered-items">
+              <img
+                src="images/GameHub_covers10.jpeg"
+                alt="Front cover of Forge Legend, it depicts an elven queen"
+              />
+              <div class="item-price">
+                <p>1 x Forge Legends</p>
+                <p>79.99$</p>
+              </div>
+              <div class="order-icons">
+                <i class="fa-solid fa-trash-can"></i>
+                <i class="fa-solid fa-circle-plus"></i>
+                <i class="fa-solid fa-circle-minus"></i>
+              </div>
+            </div>
+
+            <div class="shipping-price">
+              <p>Shipping:</p>
+              <p>10.00$</p>
+            </div>
+            <div class="total-price">
+              <p>Total:</p>
+              <p>89.99$</p>
+            </div>
+
+            
+              <a href="checkout1.html" class="btn btncheckout">Checkout</a>
+              <div class="payment-options">
+                <p>Payment options</p>
+                <ul>
+                <li> <i class="fa-brands fa-cc-visa"></i></li>
+               <li><i class="fa-brands fa-cc-mastercard"></i></li>
+               <li><i class="fa-brands fa-paypal"></i></li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <div class="layout-margin">
       <main>
-      <div class="confirm-container">
+          <div class="confirm-container">
         <div class="exit"><a href="index.html"><i class="fa-solid fa-circle-xmark"></i></div></a>
         <h1>Thank you for choosing GAME HUB for your purchase!</h1>
         <h2>A confirmation have been sent to your e-mail.</h2>
+        <a href="index.html" class="btn">Home</a>
       </div>
+        <div  class="contact-ad-container">
+          <section class="contact-ad-grid">
+          <section class="contact-ad" id="contact-ad1">
+              <h2>Valentine´s day sale!</h2>
+              <a href="" class="btn btnbrowse">Browse</a>
+            </section>
 
-      <section class="hero">
-        <div class="hero-content">
-          <h1>Valentine´s day sale!</h1>
-          <h2>Up to 40% discount on selected merchandise!</h2>
-          <p>
-            We want to spread the message of love with all of you this season!
-            Get up to 40% off and get some epic loot for you or your team mates!
-            You can browse all the discounted items below.
-          </p>
-          <a href="" class="btn btnbrowse">Browse</a>
+            <section class="contact-ad" id="contact-ad2">
+              <h2>New controller?</h2>
+              <a href="" class="btn btnbrowse">Browse</a>
+            </section>
+          </section>
         </div>
-      </section>
-      <section class="products-container">
-        <h2>
-          <a href="#">New releases:</a>
-        </h2>
-        <div class="grid">
-          <div class="product-card">
-            <img
-              src="images/GameHub_covers10.jpeg"
-              alt="Front cover of Forge Legend, it depicts an elven queen"
-            />
-            <h3><a href="" class="game_name">Forge Legend</a></h3>
-            <div class="inner-grid">
-              <p class="price">79.99$</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-
-            <a href="" class="btn btnaddcart">Add to cart</a>
-          </div>
-          <div class="product-card">
-            <img
-              src="images/GameHub_covers3.jpeg"
-              alt="Front cover of Black, it depicts a mysterious figure in black clothing and a black mask."
-            />
-            <h3><a href="" class="game_name">Black</a></h3>
-            <div class="inner-grid">
-              <p class="price">99.99$</p>
-              <i class="fa-solid fa-heart liked"></i>
-            </div>
-
-            <a href="" class="btn btnaddcart">Add to cart</a>
-          </div>
-          <div class="product-card">
-            <img
-              src="images/GameHub_covers6.jpeg"
-              alt="Front cover of Space War, it depicts a blue planet in the forground and another in the distance among stars"
-            />
-            <h3><a href="" class="game_name">Space War</a></h3>
-            <div class="inner-grid">
-              <p class="price">79.99$</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-
-            <a href="" class="btn btnaddcart">Add to cart</a>
-          </div>
-          <div class="product-card">
-            <img
-              src="images/GameHub_covers7.jpeg"
-              alt="Front cover of Racing, it depicts a racing flag with a dark background and some red speed lines"
-            />
-            <h3><a href="" class="game_name">Racing</a></h3>
-            <div class="inner-grid">
-              <p class="price">69.99$</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-
-            <a href="" class="btn btnaddcart">Add to cart</a>
-          </div>
-          <div class="product-card">
-            <img
-              src="images/GameHub_covers2.jpeg"
-              alt="Front cover of Super Duper, it depicts a boy doing a super hero pose. He is wearing a half mask and a denim jacket as a cape."
-            />
-            <h3><a href="" class="game_name">Super Duper</a></h3>
-            <div class="inner-grid">
-              <p class="price">59.99$</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-
-            <a href="" class="btn btnaddcart">Add to cart</a>
-          </div>
-        </div>
-      </section>
-      <div class="twocol">
-        <section class="advertising-section" id="ad-section1">
-          <div class="">
-            <h2>Done playing your game?</h2>
-            <p>
-              We buy and sell used games, controllers and consoles. All you have
-              to do is make an account and you will have access to the library
-              of games, controllers and consoles we buy.
-            </p>
-            <a href="" class="btn sign-upbtn">Sign up</a>
-          </div>
-        </section>
-
-        <section class="advertising-section" id="ad-section2">
-          <div class="">
-            <h2>Need another controller?</h2>
-            <p>
-              Does your joystick drift, or do you simply want to play with your
-              friends? Whatever reason we got controllers for every need! Check
-              out our selection of regular, classic or pro-controllers!
-            </p>
-            <a href="" class="btn btnbrowse">Browse</a>
-          </div>
-        </section>
-      </div>
-
-      <section class="products-container">
-        <h2>
-          <a href="#">Used games:</a>
-        </h2>
-        <div class="grid">
-          <div class="product-card">
-            <img
-              src="images/GameHub_covers10.jpeg"
-              alt="Front cover of Forge Legend, it depicts an elven queen"
-            />
-            <h3><a href="" class="game_name">Forge Legend</a></h3>
-            <div class="inner-grid">
-              <p class="price">79.99$</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-
-            <a href="" class="btn btnaddcart">Add to cart</a>
-          </div>
-          <div class="product-card">
-            <img
-              src="images/GameHub_covers3.jpeg"
-              alt="Front cover of Black, it depicts a mysterious figure in black clothing and a black mask."
-            />
-            <h3><a href="" class="game_name">Black</a></h3>
-            <div class="inner-grid">
-              <p class="price">99.99$</p>
-              <i class="fa-solid fa-heart liked"></i>
-            </div>
-
-            <a href="" class="btn btnaddcart">Add to cart</a>
-          </div>
-          <div class="product-card">
-            <img
-              src="images/GameHub_covers6.jpeg"
-              alt="Front cover of Space War, it depicts a blue planet in the forground and another in the distance among stars"
-            />
-            <h3><a href="" class="game_name">Space War</a></h3>
-            <div class="inner-grid">
-              <p class="price">79.99$</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-
-            <a href="" class="btn btnaddcart">Add to cart</a>
-          </div>
-          <div class="product-card">
-            <img
-              src="images/GameHub_covers7.jpeg"
-              alt="Front cover of Racing, it depicts a racing flag with a dark background and some red speed lines"
-            />
-            <h3><a href="" class="game_name">Racing</a></h3>
-            <div class="inner-grid">
-              <p class="price">69.99$</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-
-            <a href="" class="btn btnaddcart">Add to cart</a>
-          </div>
-          <div class="product-card">
-            <img
-              src="images/GameHub_covers2.jpeg"
-              alt="Front cover of Super Duper, it depicts a boy doing a super hero pose. He is wearing a half mask and a denim jacket as a cape."
-            />
-            <h3><a href="" class="game_name">Super Duper</a></h3>
-            <div class="inner-grid">
-              <p class="price">59.99$</p>
-              <i class="fa-regular fa-heart"></i>
-            </div>
-
-            <a href="" class="btn btnaddcart">Add to cart</a>
-          </div>
-        </div>
-      </section>
       </main>
       <a href="#top" class="scroll-btn btn"
         ><i class="fa-solid fa-chevron-up"></i
@@ -293,5 +150,6 @@
       </ul>
       <p>© Copyright 2022 GAMEHUB</p>
     </footer>
+     <script src="./js/shopping-cart.js"></script>
   </body>
 </html>
