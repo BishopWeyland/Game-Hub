@@ -31,11 +31,11 @@ function validateForm(event) {
 
   if (!validatePassword(password1.value)) {
     password1Error.innerHTML =
-      "Your password most contain one number and one uppercase letter";
+      "Your password must contain one number and one uppercase letter.";
   }
 
   if (!confirmPassword(password2)) {
-    password2Error.innerHTML = "You need to input a valid password.";
+    password2Error.innerHTML = "Your password must be the same.";
   }
 
   if (

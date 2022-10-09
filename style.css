@@ -484,11 +484,6 @@ button {
   padding: 60px;
 }
 
-.form-control {
-  display: flex;
-  flex-direction: column;
-}
-
 .form-message {
   background-color: #0f1e21;
   padding: 10px;
@@ -507,6 +502,7 @@ button {
 
 small {
   color: #fcb6b6;
+  font-size: 12px;
 }
 
 .error-container-message {
@@ -934,12 +930,20 @@ textarea {
   margin-top: 30px;
 }
 
-.account-form input {
-  height: 25px;
-}
-
 #password2 {
   margin-bottom: 30px;
+}
+
+.ca-error-container {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 60px;
+  width: 300px;
+}
+
+.create-account-btn {
+  width: fit-content;
 }
 
 .account-container p {
@@ -1596,13 +1600,12 @@ checkout 1 page */
   .account-form label {
     font-size: 16px;
   }
-
-  .account-form input {
-    max-width: fit-content;
-  }
-
   .account-gh-logo {
     display: none;
+  }
+
+  .ca-error-container {
+    top: 50px;
   }
 
   /* account page phone */
@@ -1927,6 +1930,16 @@ checkout 1 page */
 
   .contact-ad {
     width: 260px;
+  }
+
+  small {
+    font-size: 10px;
+  }
+
+  /* create account page */
+
+  .ca-error-container {
+    width: 200px;
   }
 
   /* game-title */
