@@ -1,3 +1,5 @@
+import { checkLength, validateEmail } from "./form-validation.js";
+
 //form
 const form = document.querySelector("#form");
 const firstName = document.querySelector("#first-name");
@@ -31,10 +33,10 @@ function validateForm(event) {
 
   if (!validatePassword(password1.value)) {
     password1Error.innerHTML =
-      "Your password must contain one number and one uppercase letter.";
+      "Your password must be atleast 8 characters, contain one number and one uppercase letter.";
   }
 
-  if (!confirmPassword(password2)) {
+  if (!confirmPassword(password2) || !password2.value.length) {
     password2Error.innerHTML = "Your password must be the same.";
   }
 
@@ -51,19 +53,6 @@ function validateForm(event) {
 }
 
 form.addEventListener("submit", validateForm);
-
-function checkLength(value, length) {
-  if (value.trim().length >= length) {
-    return true;
-  }
-  return false;
-}
-
-function validateEmail(email) {
-  const regEx = /\S+@\S+\.\S+/;
-  const patternMatch = regEx.test(email);
-  return patternMatch;
-}
 
 function validatePassword(password1) {
   const passRegEx = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;

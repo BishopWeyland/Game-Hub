@@ -1,3 +1,5 @@
+import { checkLength, validateEmail } from "./form-validation.js";
+
 //form
 const form = document.querySelector("#form");
 const firstName = document.querySelector("#first-name");
@@ -44,16 +46,3 @@ function validateForm(event) {
 }
 
 form.addEventListener("submit", validateForm);
-
-function checkLength(value, length) {
-  if (value.trim().length >= length) {
-    return true;
-  }
-  return false;
-}
-
-function validateEmail(email) {
-  const regEx = /\S+@\S+\.\S+/;
-  const patternMatch = regEx.test(email);
-  return patternMatch;
-}
