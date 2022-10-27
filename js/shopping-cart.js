@@ -21,7 +21,6 @@ const total = document.querySelector(".total-price");
 async function shoppingCart() {
   const response = await fetch(url);
   const results = await response.json();
-
   cartPhoto.innerHTML = `<img src="${results.images[0].src}">`;
   price.innerHTML = `
   <p> 1 x ${results.name}</p>

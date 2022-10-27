@@ -722,6 +722,10 @@ textarea {
   padding: 40px;
 }
 
+.search-card a:hover {
+  text-decoration: none;
+}
+
 .search-inner-grid {
   display: flex;
   justify-content: space-between;
