@@ -350,7 +350,7 @@ button {
   margin: 100px 0px;
 }
 
-.grid {
+#grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 60px;
@@ -1327,7 +1327,7 @@ checkout 1 page */
 
   /* index phone */
 
-  .grid {
+  #grid {
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -1651,7 +1651,7 @@ checkout 1 page */
 @media (max-width: 900px) {
   /* index page  */
 
-  .grid {
+  #grid {
     grid-template-columns: repeat(2, 1fr);
   }
   .twocol {
@@ -1819,7 +1819,7 @@ checkout 1 page */
     display: none;
   }
 
-  .grid {
+  #grid {
     grid-template-columns: repeat(1, 1fr);
   }
 
