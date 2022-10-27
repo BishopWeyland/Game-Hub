@@ -1,3 +1,5 @@
+import { queryString, params, id, url } from "./game-title.js";
+
 const addCart = document.querySelectorAll("button.add-cart");
 const cart = document.querySelector(".cart-container");
 const exitCart = document.querySelector(".exit");
