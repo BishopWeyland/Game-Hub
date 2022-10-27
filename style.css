@@ -362,6 +362,10 @@ button {
   gap: 16px;
 }
 
+.product-card a:hover {
+  text-decoration: none;
+}
+
 .inner-grid {
   display: flex;
   justify-content: space-between;
@@ -1054,6 +1058,7 @@ checkout 1 page */
 .order-container {
   background-color: #1c3a40;
   padding: 30px;
+  width: 350px;
 }
 
 .ordered-items {
@@ -1765,6 +1770,10 @@ checkout 1 page */
     height: 20px;
     width: 20px;
     margin: 5px 40px;
+  }
+
+  .order-container {
+    width: fit-content;
   }
 
   .checkout-container input {
