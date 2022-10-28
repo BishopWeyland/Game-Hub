@@ -13,12 +13,15 @@ const productImages = document.querySelector(".product-photos");
 const productInfo = document.querySelector(".flexbox-item-2");
 const price = document.querySelector(".price-flex");
 const title = document.querySelector("title");
+const loadingContainer = document.querySelector(".loading-container");
 
 async function getDetails() {
   try {
     const response = await fetch(url);
     const results = await response.json();
-    console.log(results);
+
+    loadingContainer.innerHTML = "";
+
     image.innerHTML = `<img src="${results.images[0].src}">`;
 
     productImages.innerHTML = `

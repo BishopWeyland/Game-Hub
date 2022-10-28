@@ -15,9 +15,7 @@ async function getProducts() {
       <div class="inner-grid">
       <p class="price">${results.price}$</p></a>
       <i class="fa-regular fa-heart favorites"></i>
-     
-      </div> <button class=" btn btnaddcart add-cart">
-              Add to cart</button></div>`;
+      `;
       });
     }
   } catch (error) {}

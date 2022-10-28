@@ -17,7 +17,6 @@ exitCart.addEventListener("click", () => {
 const cartPhoto = document.querySelector(".cart-photo");
 const price = document.querySelector(".item-price");
 const total = document.querySelector(".total-price");
-const checkoutButton = document.querySelector(".checkout-button");
 
 async function shoppingCart() {
   const response = await fetch(url);
@@ -34,5 +33,3 @@ async function shoppingCart() {
 }
 
 shoppingCart();
-
-// implement add to cart
