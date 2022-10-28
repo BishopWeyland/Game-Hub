@@ -7,6 +7,8 @@ async function getProducts() {
     const response = await fetch(url);
     const results = await response.json();
 
+    console.log(results);
+
     for (let i = 0; i < productGrid.length; i++) {
       results.forEach(function (results) {
         productGrid[
