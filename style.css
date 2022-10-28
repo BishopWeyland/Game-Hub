@@ -908,7 +908,7 @@ textarea {
 }
 
 .loading {
-  margin-top: 300px;
+  margin-top: 100px;
   border: 20px solid #1c3a40;
   border-top: 20px solid #65d3eb;
   border-radius: 50%;
@@ -1753,6 +1753,12 @@ checkout 1 page */
     width: 40px;
     font-size: 20px;
     padding-top: 10px;
+  }
+
+  .loading {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
   }
 
   /* search page */
