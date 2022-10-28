@@ -1759,6 +1759,8 @@ checkout 1 page */
     width: 100px;
     height: 100px;
     margin-top: 50px;
+    border: 10px solid #1c3a40;
+    border-top: 10px solid #65d3eb;
   }
 
   /* search page */
