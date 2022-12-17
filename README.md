@@ -47,7 +47,7 @@ You can list a the tech stack that you've used over here
 
 - Font Awesome](https://fontawesome.com/)
 
-## Pexels
+Pexels
 
 - [Lucie Liz](https://www.pexels.com/nb-no/bilde/teknologi-tastatur-lys-hodetelefon-3165335/)
 - [Jens Manhke](https://www.pexels.com/nb-no/bilde/tilkobling-forbindelse-teknologi-display-776092/)
