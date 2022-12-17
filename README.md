@@ -21,11 +21,9 @@ The second assignment was making all the sites with HTML and CSS. We also learne
 
 The third assignment was using Wordpress and the WooCommerce plugin to make a REST API for the products on the page. And using query string parameters to get indivdual product sites.
 
-I added JavaScript to most of the earlier fake JavaScript.
+I removed CSS hacks and added functional JavaScript instead.
 
 ## Built With
-
-You can list a the tech stack that you've used over here
 
 - UX Design
 - HTML
