@@ -45,12 +45,12 @@ You can list a the tech stack that you've used over here
 
 ## Acknowledgments
 
-[Font Awesome](https://fontawesome.com/)
+- Font Awesome](https://fontawesome.com/)
 
 ## Pexels
 
-[Lucie Liz](https://www.pexels.com/nb-no/bilde/teknologi-tastatur-lys-hodetelefon-3165335/)
-[Jens Manhke](https://www.pexels.com/nb-no/bilde/tilkobling-forbindelse-teknologi-display-776092/)
-[Pixabay](https://www.pexels.com/nb-no/bilde/silhuett-mysterium-take-takete-289367/)
-[Ferdinand Studio](https://www.pexels.com/nb-no/bilde/heks-kostyme-halloween-allehelgensaften-3922102/)
-[Sami Anas](https://www.pexels.com/nb-no/bilde/skumring-kyst-bakke-as-5137664/)
+- [Lucie Liz](https://www.pexels.com/nb-no/bilde/teknologi-tastatur-lys-hodetelefon-3165335/)
+- [Jens Manhke](https://www.pexels.com/nb-no/bilde/tilkobling-forbindelse-teknologi-display-776092/)
+- [Pixabay](https://www.pexels.com/nb-no/bilde/silhuett-mysterium-take-takete-289367/)
+- [Ferdinand Studio](https://www.pexels.com/nb-no/bilde/heks-kostyme-halloween-allehelgensaften-3922102/)
+- [Sami Anas](https://www.pexels.com/nb-no/bilde/skumring-kyst-bakke-as-5137664/)
