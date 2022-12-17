@@ -11,17 +11,17 @@ The website had to contain:
 
 - Home page
 - Search page
-- A game spesific page
-- Create Account page
+- A game specific page
+- Create account page
 - Account page
 - Contact page
 - Checkout page
 
-The second assignment was making all the sites with HTML and CSS. We also learned how to use the checkbox hack to simulate javascript functionallity to the hamburger menu and shopping cart.
+The second assignment was making all the sites with HTML and CSS. We also learned how to use the checkbox hack to simulate javascript functionallity on the hamburger menu and shopping cart.
 
 The third assignment was using Wordpress and the WooCommerce plugin to make a REST API for the products on the page. And using query string parameters to get indivdual product sites.
 
-I added Javascript to most of the earlier fake javascript.
+I added JavaScript to most of the earlier fake JavaScript.
 
 ## Built With
 
@@ -30,7 +30,7 @@ You can list a the tech stack that you've used over here
 - UX Design
 - HTML
 - CSS
-- Javascript
+- JavaScript
 - Wordpress
 
 ## Contact
